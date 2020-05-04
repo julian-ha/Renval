@@ -105,6 +105,51 @@ const Mehrwerte = () => {
     </section>
 }
 
+const Textpassage = () => {
+    return <section class="section">
+    <div class="container-fluid">
+    <div class="row align-middle">
+    <div class="col-lg-6 align-middle">
+    <h3 class="title">
+    Wir ermöglichen digitale Geschäftsmodelle und Prozesse
+    </h3>
+    <p>
+    Wir analysieren gemeinsam mit ihnen die aktuelle Situation in
+    ihrem Unternehmen. Darauf aufbauend erstellen wir neue Konzepte
+    mit digitalen Lösungsansätzen und Technologien im Bereich Web.
+    <br />
+    <br />
+    Die Umsetzung erfolgt direkt von Enval. Daraus ergibt sich der
+    Vorteil, das Planung, Gestaltung und Realisation aus einer Hand
+    hervor gehen.
+    <br />
+    <br />
+    Langfristig werden neue Lösungen überwacht und basierend auf
+    monitorings werden kontinuirlich Verbesserungen vorgenommen.
+    </p>
+    <br />
+    <a href="" class="text-link">
+    <div class="icons-inline">
+    <span class="button-text">
+    Kostenlose Beratung
+    </span>
+    <span class="material-icons">
+    arrow_forward
+    </span>
+    </div>
+    </a>
+    </div>
+    <div class="col-lg-6">
+    <img  src="https://images.unsplash.com/photo-1540670492524-0eef68c090bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Bild mit Tablet einer Enval Besprechung" />
+    <div class="bild-unterschrift-kachel-rechts" id="color-green">
+    <span>Digitale Lösungen für Kundenbeziehungen</span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+}
+
 const Home = () => {
     return <div className="application">
     <Helmet>
@@ -116,6 +161,7 @@ const Home = () => {
        
         <Header />
         <Mehrwerte />
+        <Textpassage />
     </div>
     </div>
 };

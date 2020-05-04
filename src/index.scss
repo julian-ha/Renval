@@ -1,3 +1,7 @@
+.section {
+  padding: 3rem 1.5rem;
+}
+
 .nav-link {
   margin: 7px;
 }
@@ -30,15 +34,21 @@
   background-color: red;
 }
 .box {
-  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 10px;
-  border-radius: 5px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.02);
+  color: #4a4a4a;
+  padding: 1.25rem;
+  border-radius:6px;
 
 }
-.heading {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.col-lg-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
+#color-green {
+  background-color: green;
+
+}
+
 
 /*Bulma  */
 .navbar {
