@@ -1,9 +1,10 @@
 import React from 'react';
 
 
-import '../node_modules/bulma/css/bulma.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Navbar from './components/Navbar/navbar';
+import Navbars from './components/Navbar/navbar';
 import Footer from './components/Footer/footer';
 
 //Pages
@@ -19,12 +20,13 @@ function App() {
   return (
     <React.Fragment>
       <Router>
-        <Navbar />
+      <div>
+      <Navbars />
         
 
         <Switch>
           <Route exact path='/' component= {Home}/>
-          <Route exact path='/about' component= {AboutUs}/>
+          <Route exact path='/aboutus' component= {AboutUs}/>
           <Route exact path='/digitale-leistungen' component={Leistungen}/>
           <Route exact path='/marketing' component={Marketing}/>
           <Route exact path='/datenschutzerklaerung' component={Datenschutzerklaerung}/>
@@ -33,6 +35,7 @@ function App() {
         </Switch>
 
         <Footer />
+      </div>
 
         
       </Router>

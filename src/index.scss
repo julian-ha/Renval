@@ -1,3 +1,46 @@
+.nav-link {
+  margin: 7px;
+}
+.header-logo {
+  margin-right: 40px;
+  margin-left: 10px;
+}
+.bgimage {
+  width:100%;
+  height:600px;
+  background: url('https://images.unsplash.com/photo-1540670492524-0eef68c090bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.display-block {
+  display: inline-block;
+}
+.bgimage h5 {
+  color:white;
+  text-shadow:2px 2px #333;
+}
+.box-icon {
+  background-color: red;
+}
+.box {
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  border-radius: 5px;
+
+}
+.heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*Bulma  */
 .navbar {
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
 }
