@@ -3,9 +3,9 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 5000;
 
-app.use(express.static(path.join(__dirname , "..", "build")));
+app.use(express.static(path.join(__dirname, "build")));
 
-const HTML_FILE = path.join(__dirname, "..", "build", "index.html");
+const HTML_FILE = path.join(__dirname,"build", "index.html");
 console.log(HTML_FILE);
 
 // create a GET route
