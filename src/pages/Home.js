@@ -4,10 +4,10 @@ import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
-    return <section class="bgimage text-center flex">
+    return <section class="section bgimage flex">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center align-align-middle display-block text-white">
+        <div class="col-lg-12  text-center display-block text-white">
          <h1 className="h1">Neue digitale Technologien</h1>
           <p className="h5">für Ihr Unternehmen</p>
           <Button variant="primary">Unsere Angebote</Button>
@@ -109,7 +109,7 @@ const Textpassage = () => {
     return <section class="section">
     <div class="container-fluid">
     <div class="row align-middle">
-    <div class="col-lg-6 align-middle">
+    <div class="col-lg-6 is-center ">
     <h3 class="title">
     Wir ermöglichen digitale Geschäftsmodelle und Prozesse
     </h3>
@@ -140,10 +140,49 @@ const Textpassage = () => {
     </a>
     </div>
     <div class="col-lg-6">
-    <img  src="https://images.unsplash.com/photo-1540670492524-0eef68c090bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Bild mit Tablet einer Enval Besprechung" />
+    <img  className="col-img" src="https://images.unsplash.com/photo-1540670492524-0eef68c090bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Bild mit Tablet einer Enval Besprechung" />
     <div class="bild-unterschrift-kachel-rechts" id="color-green">
     <span>Digitale Lösungen für Kundenbeziehungen</span>
     </div>
+    </div>
+    </div>
+    </div>
+    </section>
+}
+
+const Textpassage2 = () => {
+    return <section class="section">
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-lg-6">
+    <img className="col-img" src="https://images.unsplash.com/photo-1540670492524-0eef68c090bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Bild eines Enval meetings" />
+    <div class="bild-unterschrift-kachel-links" id="color-green" >
+    <span>Kunden Gewinnung durch Suchmaschinen Optimierung</span>
+    </div>
+    </div>
+    <div class="col-lg-6 is-center">
+    <h4 class="title">Fortschrittliche Technologien im Web</h4>
+    <p>
+    Wir erstellen Webseiten basierend auf modernen Technologien. Egal
+    ob ihr Unternehmen zu repräsentieren oder um spezielle Zielgruppen
+    abzudecken.
+    <br />
+    <br />
+    SEO beginnt bereits bei der Programmierung von Hompages. Der
+    Aufbau der Seiten wird nach einem Strengen Plan erstellt, um
+    später bestmögliche Ergebnisse in Suchmaschinen zu erreichen.
+    </p>
+    <br />
+    <a href="" class="text-link">
+    <div class="icons-inline">
+    <span class="button-text">
+    Über unsere Technologien
+    </span>
+    <span class="material-icons">
+    arrow_forward
+    </span>
+    </div>
+    </a>
     </div>
     </div>
     </div>
@@ -162,6 +201,7 @@ const Home = () => {
         <Header />
         <Mehrwerte />
         <Textpassage />
+        <Textpassage2 />
     </div>
     </div>
 };
